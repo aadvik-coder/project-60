@@ -1,0 +1,83 @@
+img {
+  width: 450px;
+  border-radius: 70px;
+  
+  
+}
+
+body {
+  text-align:center;
+  
+}
+
+#para {
+  font-size: 30px;
+  font-family: monospace
+  
+    
+  
+}
+
+h1{
+  font-size: 50px;
+  font-family: monospace
+}
+
+.about{
+    background: linear-gradient(#4287f5 0%, #c542f5 100%);
+    background-repeat: no-repeat;
+}
+.hobby{
+    background: linear-gradient(#ff7b00 0%, #ff00b3 100%);
+    background-repeat: no-repeat;
+}
+.menu{
+    
+    
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: lightcyan;
+}
+
+.links{
+    float:left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    color: aquamarine;
+    font-size: 15px;
+}
+
+
+.My Favourite Games{
+    background: linear-gradient(#3700ff 0%, #9900ff 100%);
+
+
+
+    height: 300px;
+    margin-top: 35px;
+
+
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:darkorange;
+    font-size: 20px;
+}
+
+.picture{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    height: 300px;
+    margin-top: 35px;
+}
+
+.picture:hover{
+    transform: scale(0.9);
+}
